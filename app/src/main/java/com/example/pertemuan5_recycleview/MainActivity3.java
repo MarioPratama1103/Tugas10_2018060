@@ -88,6 +88,9 @@ public class MainActivity3 extends AppCompatActivity {
                 } else if (id == R.id.nav_chat) {
                     Intent a = new Intent(MainActivity3.this, MainActivity3.class);
                     startActivity(a);
+                }else if (id == R.id.nav_rest){
+                    Intent a = new Intent(MainActivity3.this, MainActivity4.class);
+                    startActivity(a);
                 }
                 return true;
             }
