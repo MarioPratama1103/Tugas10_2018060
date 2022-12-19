@@ -18,5 +18,9 @@
             android:id="@+id/nav_rest"
             android:icon="@drawable/ic_baseline_api"
             android:title="Rest Api" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout App" />
     </group>
 </menu>

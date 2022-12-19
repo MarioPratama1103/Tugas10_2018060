@@ -92,6 +92,10 @@ public class MainActivity3 extends AppCompatActivity {
                     Intent a = new Intent(MainActivity3.this, MainActivity4.class);
                     startActivity(a);
                 }
+                else if (id == R.id.nav_logout){
+                    Intent a = new Intent(MainActivity3.this, LoginActivity.class);
+                    startActivity(a);
+                }
                 return true;
             }
         });

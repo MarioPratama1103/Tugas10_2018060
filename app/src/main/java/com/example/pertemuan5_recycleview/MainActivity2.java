@@ -78,6 +78,10 @@ public class MainActivity2 extends AppCompatActivity {
                     Intent a = new Intent(MainActivity2.this, MainActivity4.class);
                     startActivity(a);
                 }
+                else if (id == R.id.nav_logout){
+                    Intent a = new Intent(MainActivity2.this, LoginActivity.class);
+                    startActivity(a);
+                }
                 return true;
             }
         });

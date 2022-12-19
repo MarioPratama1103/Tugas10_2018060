@@ -59,6 +59,10 @@ public class MainActivity4 extends AppCompatActivity implements
                     Intent a = new Intent(MainActivity4.this, MainActivity4.class);
                     startActivity(a);
                 }
+                else if (id == R.id.nav_logout){
+                    Intent a = new Intent(MainActivity4.this, LoginActivity.class);
+                    startActivity(a);
+                }
                 return true;
             }
         });
